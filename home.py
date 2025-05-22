@@ -52,7 +52,7 @@ def main():
     load_css()
     
     with st.sidebar:
-        st.image("https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/Vitor.png", width=130)
+        st.image("Vitor.png", width=130)
         st.markdown("""
         <div style='text-align: center;'>
             <h2>Victor Sporkens</h2>
