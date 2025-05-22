@@ -1,8 +1,5 @@
 import streamlit as st
 from PIL import Image
-import webbrowser
-
-import streamlit as st
 
 st.title("🔬 Projeto de Pesquisa")
 st.markdown('---')
