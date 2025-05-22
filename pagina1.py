@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import webbrowser
 
 st.title('Trajetória e formações :mortar_board::')
 st.markdown("---")
