@@ -1,9 +1,7 @@
 import streamlit as st
 from PIL import Image
-import webbrowser
 
-imagem_local = "exercício/Vitor.png"
-#código do muanda
+imagem_local = "Vitor.png"
 def load_css():
     st.markdown("""
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -54,7 +52,7 @@ def main():
     load_css()
     
     with st.sidebar:
-        st.image("Vitor.png", width=130)
+        st.image("https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/Vitor.png", width=130)
         st.markdown("""
         <div style='text-align: center;'>
             <h2>Victor Sporkens</h2>
